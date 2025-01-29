@@ -10,7 +10,7 @@ app = Flask(__name__)
 analyzer = SentimentIntensityAnalyzer()
 
 # YouTube API key (Replace with your API key)
-API_KEY = 'AIzaSyCApYtAxqjbgmz3m63ShbrP0zSgMfZmPR8'
+API_KEY = 'Paste your api key'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 @app.route('/')
